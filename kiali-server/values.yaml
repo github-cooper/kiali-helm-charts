@@ -48,7 +48,7 @@ deployment:
   ingress:
     additional_labels: {}
     class_name: "nginx"
-    #enabled:
+    enabled: "false"
     override_yaml:
       metadata: {}
   instance_name: "kiali"
